@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+}
+
+h4{
+    top:3rem;
+    position: relative;
+    font-weight: 600;
+}
+
+/*
+도형의 중심축 센터로 맞추기
+transform-origin:center;
+transform-box: fill-box;
+*/
+
+
+#main-car {
+    animation: bounce 0.6s ease-in-out infinite alternate;
+    transform-origin: bottom;
+}
+
+#note-1,
+#note-2
+{
+    animation: bounce 0.5s ease-in-out infinite alternate;
+}
+
+#note-3,
+#note-4
+{
+    animation: bounce 0.4s ease-in-out infinite alternate;
+}
+
+
+
+@keyframes bounce {
+    from {
+        transform:rotateX(0deg);
+    }
+    to {
+        transform:rotateX(20deg);
+    }
+}
+
+@keyframes bounce-2 {
+    from {
+        transform:rotateX(0deg);
+    }
+    to {
+        transform:rotateX(10deg);
+    }
+}
