@@ -7,3 +7,6 @@
 3. SVG 파일로 익스포트 (Figm에서 익스포트 하면 Figma에서 각각의 이미지에 대한 id값도 같이 {= 레이어 이름} 익스포트 해줌
 4. html 파일에 svg 파일 그대로 복사
 5. CSS keyframes, property 조정하여 애니메이션 구현
+
+
+https://kimbumi.github.io/svg_animation/
